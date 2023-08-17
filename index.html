@@ -21,6 +21,17 @@
 </head>
 
 <body>
+    <script>
+         var password = "[Code@247*786&#$]";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode 🔒");
+            while (passcode !== password) {
+               alert("Incorrect PassCode 🤖");
+               return passcodeprotect();
+            }
+         }());
+         alert('Welcome To Portfolio! 😎');
+      </script>
     <!-- ===== Main Container Start ========= -->
     <div class="main-container">
         <!-- ===== Aside Start ========= -->
@@ -548,19 +559,6 @@
         referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
-
-
-    <script>
-         var password = "tutorial";
-         (function passcodeprotect() {
-            var passcode = prompt("Enter PassCode");
-            while (passcode !== password) {
-               alert("Incorrect PassCode");
-               return passcodeprotect();
-            }
-         }());
-         alert('Welcome To The TP..!');
-      </script>
 </body>
 
 </html>
