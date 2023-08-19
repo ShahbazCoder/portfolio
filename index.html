@@ -21,7 +21,17 @@
 </head>
 
 <body oncontextmenu='return false;'>
-    
+    <script>
+         var password = "[Code@247*786&#$]";
+         (function passcodeprotect() {
+            var passcode = prompt("Enter PassCode 🔒");
+            while (passcode !== password) {
+               alert("Incorrect PassCode 🤖");
+               return passcodeprotect();
+            }
+         }());
+         alert('Welcome To Portfolio! 😎');
+      </script>
     <!-- ===== Main Container Start ========= -->
     <div class="main-container">
         <!-- ===== Aside Start ========= -->
